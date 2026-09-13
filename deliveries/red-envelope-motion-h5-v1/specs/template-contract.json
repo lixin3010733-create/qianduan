@@ -1,0 +1,45 @@
+{
+  "schemaVersion": "1.0.0",
+  "templateId": "red-envelope-motion-h5-v1",
+  "canvas": {
+    "width": 750,
+    "height": 1626,
+    "responsiveMode": "uniform-scale-from-top-center"
+  },
+  "requiredLayers": [
+    { "id": "page-background", "kind": "static" },
+    { "id": "card-backdrop", "kind": "static" },
+    { "id": "character", "kind": "transparent-motion-asset" },
+    { "id": "card-foreground", "kind": "static-occlusion" },
+    { "id": "glint-and-sparkles", "kind": "transform-opacity-effect" },
+    { "id": "editable-copy", "kind": "html-text" },
+    { "id": "primary-action", "kind": "html-control" }
+  ],
+  "motion": {
+    "durationMs": 1600,
+    "loop": true,
+    "easing": "cubic-bezier(0.45, 0, 0.55, 1)",
+    "allowedRealtimeProperties": ["transform", "opacity"],
+    "preferredAssetFormats": ["transparent-webp", "transparent-png", "svg", "lottie-json"],
+    "forbiddenPatterns": [
+      "oversized-frame-sprite",
+      "layout-property-animation",
+      "filter-animation-on-large-layer",
+      "whole-page-video-as-ui"
+    ]
+  },
+  "replacementWorkflow": [
+    "duplicate-template",
+    "replace-character-and-decoration-assets",
+    "update-copy-and-theme-tokens",
+    "tune-motion-amplitude-only-if-required",
+    "verify-on-mobile-viewport",
+    "package-source-assets-and-specs"
+  ],
+  "acceptance": {
+    "targetFps": 60,
+    "noVisibleLayoutShift": true,
+    "prefersReducedMotion": true,
+    "interactiveControlsRemainHtml": true
+  }
+}

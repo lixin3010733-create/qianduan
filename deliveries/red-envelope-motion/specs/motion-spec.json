@@ -1,0 +1,15 @@
+{
+  "id": "cat-horse-rock-v1",
+  "sourceVideo": "a96cbe3f6091d92be2ea12f4cc20b844.mp4",
+  "durationMs": 1600,
+  "loop": true,
+  "transformOrigin": "50% 90%",
+  "keyframes": [
+    {"offset": 0, "x": 0, "y": 0, "rotate": 0},
+    {"offset": 0.37, "x": -7, "y": -15, "rotate": -1.8},
+    {"offset": 0.7, "x": 1, "y": 4, "rotate": 0.45},
+    {"offset": 1, "x": 0, "y": 0, "rotate": 0}
+  ],
+  "easing": "cubic-bezier(0.45, 0, 0.55, 1)",
+  "reducedMotion": "static"
+}

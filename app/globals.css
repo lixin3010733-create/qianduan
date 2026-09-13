@@ -1,0 +1,71 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@import 'shadcn/tailwind.css';
+@import './ui-unified.css';
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-heading: var(--font-geist-sans);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --radius-sm: calc(var(--radius) * 0.65);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.35);
+  --radius-2xl: calc(var(--radius) * 1.8);
+}
+
+:root {
+  --background: #f1f0eb;
+  --foreground: #1f201d;
+  --card: #ffffff;
+  --card-foreground: #1f201d;
+  --primary: #20211e;
+  --primary-foreground: #ffffff;
+  --secondary: #e8e7e1;
+  --secondary-foreground: #20211e;
+  --muted: #eeede8;
+  --muted-foreground: #6e7069;
+  --accent: #fff0ea;
+  --accent-foreground: #b84929;
+  --destructive: #ca3e32;
+  --border: #deddd7;
+  --input: #d4d3cc;
+  --ring: #ff6b45;
+  --radius: 0.75rem;
+}
+
+@layer base {
+  * { @apply border-border outline-ring/50; }
+  html { @apply font-sans; }
+  body { @apply bg-background text-foreground; }
+  button { cursor: pointer; }
+}
+
+.logic-grid {
+  background-image: radial-gradient(#c9c7bf 0.75px, transparent 0.75px);
+  background-size: 18px 18px;
+}
+
+::selection { background: #ffb29c; color: #1f201d; }
+
+@media (max-width: 640px) {
+  body { min-width: 360px; }
+}

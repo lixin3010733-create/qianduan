@@ -1,0 +1,107 @@
+{
+  "source": {
+    "video": "90a00cc3561ca1cc19ab18d5734565f1_raw.mp4",
+    "width": 1290,
+    "height": 2796,
+    "duration_seconds": 71.34,
+    "canvas_width": 750,
+    "canvas_height": 1626,
+    "scale": 0.5813953488
+  },
+  "layers": [
+    {
+      "id": "home-title",
+      "screen": "home",
+      "type": "text",
+      "source_bbox": { "x": 385, "y": 405, "width": 520, "height": 115 },
+      "scaled_bbox": { "x": 224, "y": 235, "width": 302, "height": 67 },
+      "z_index": 20,
+      "notes": "可编辑标题"
+    },
+    {
+      "id": "home-hero",
+      "screen": "home",
+      "type": "bitmap",
+      "source_bbox": { "x": 0, "y": 600, "width": 1290, "height": 1380 },
+      "scaled_bbox": { "x": 0, "y": 349, "width": 750, "height": 802 },
+      "z_index": 10,
+      "asset": "assets/red-envelope-video/images/image-home-hero-01.png",
+      "transparent_required": false,
+      "notes": "原视频复杂红包主视觉与纹理背景"
+    },
+    {
+      "id": "home-send-icon",
+      "screen": "home",
+      "type": "bitmap",
+      "source_bbox": { "x": 88, "y": 1985, "width": 170, "height": 170 },
+      "scaled_bbox": { "x": 51, "y": 1154, "width": 99, "height": 99 },
+      "z_index": 22,
+      "asset": "assets/red-envelope-video/images/icon-home-send-01.png",
+      "transparent_required": false
+    },
+    {
+      "id": "home-receive-icon",
+      "screen": "home",
+      "type": "bitmap",
+      "source_bbox": { "x": 84, "y": 2285, "width": 180, "height": 180 },
+      "scaled_bbox": { "x": 49, "y": 1328, "width": 105, "height": 105 },
+      "z_index": 22,
+      "asset": "assets/red-envelope-video/images/icon-home-receive-01.png",
+      "transparent_required": false
+    },
+    {
+      "id": "cover-card-red",
+      "screen": "cover-red",
+      "type": "bitmap",
+      "source_bbox": { "x": 160, "y": 760, "width": 970, "height": 1350 },
+      "scaled_bbox": { "x": 93, "y": 442, "width": 564, "height": 785 },
+      "z_index": 12,
+      "asset": "assets/red-envelope-video/images/image-cover-card-red-01.png",
+      "transparent_required": false,
+      "notes": "红色小马招财猫封面，来源于视频 4.0 秒"
+    },
+    {
+      "id": "cover-card-green",
+      "screen": "cover",
+      "type": "bitmap",
+      "source_bbox": { "x": 160, "y": 760, "width": 970, "height": 1350 },
+      "scaled_bbox": { "x": 93, "y": 442, "width": 564, "height": 785 },
+      "z_index": 12,
+      "asset": "assets/red-envelope-video/images/image-cover-card-green-01.png",
+      "transparent_required": false,
+      "notes": "绿色机器人封面，来源于视频 6.2 秒"
+    },
+    {
+      "id": "cover-card-orange",
+      "screen": "cover-orange",
+      "type": "bitmap",
+      "source_bbox": { "x": 160, "y": 760, "width": 970, "height": 1350 },
+      "scaled_bbox": { "x": 93, "y": 442, "width": 564, "height": 785 },
+      "z_index": 12,
+      "asset": "assets/red-envelope-video/images/image-cover-card-orange-01.png",
+      "transparent_required": false,
+      "notes": "橙色比特币招财猫封面，来源于视频 8.0 秒"
+    },
+    {
+      "id": "amount-sol-icon",
+      "screen": "amount",
+      "type": "bitmap",
+      "source_bbox": { "x": 405, "y": 392, "width": 112, "height": 112 },
+      "scaled_bbox": { "x": 235, "y": 228, "width": 65, "height": 65 },
+      "z_index": 24,
+      "asset": "assets/red-envelope-video/images/icon-token-sol-01.png",
+      "transparent_required": false
+    },
+    {
+      "id": "count-hero",
+      "screen": "count",
+      "type": "bitmap",
+      "source_bbox": { "x": 170, "y": 310, "width": 950, "height": 1090 },
+      "scaled_bbox": { "x": 99, "y": 180, "width": 552, "height": 634 },
+      "z_index": 12,
+      "asset": "assets/red-envelope-video/images/image-count-hero-01.png",
+      "transparent_required": false,
+      "notes": "原视频十层红包封面堆叠主视觉"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "schemaVersion": "1.0.0",
+  "source": {
+    "path": "C:/Users/李鑫/Documents/xwechat_files/wxid_ppmyf5ewhy4k22_c9a9/temp/RWTemp/2026-08/9e20f478899dc29eb19741386f9343c8/0ca98648c5135d5f0ca757a7ed15b383.png",
+    "width": 1290,
+    "height": 2796
+  },
+  "canvas": {
+    "width": 750,
+    "height": 1626,
+    "scale": 0.5813953488
+  },
+  "layers": [
+    {
+      "id": "page-background",
+      "type": "vector",
+      "source_bbox": {"x": 0, "y": 0, "width": 1290, "height": 2796},
+      "scaled_bbox": {"x": 0, "y": 0, "width": 750, "height": 1626},
+      "z_index": 0,
+      "notes": "粉色到白色的页面背景"
+    },
+    {
+      "id": "navigation",
+      "type": "text-vector",
+      "source_bbox": {"x": 64, "y": 40, "width": 1096, "height": 190},
+      "scaled_bbox": {"x": 37, "y": 23, "width": 637, "height": 110},
+      "z_index": 20
+    },
+    {
+      "id": "title",
+      "type": "text",
+      "source_bbox": {"x": 360, "y": 390, "width": 570, "height": 110},
+      "scaled_bbox": {"x": 209, "y": 227, "width": 331, "height": 64},
+      "z_index": 20,
+      "text": "选择红包封面"
+    },
+    {
+      "id": "main-envelope-card",
+      "type": "vector",
+      "source_bbox": {"x": 170, "y": 720, "width": 950, "height": 1235},
+      "scaled_bbox": {"x": 99, "y": 419, "width": 552, "height": 718},
+      "z_index": 5
+    },
+    {
+      "id": "cat-horse-character",
+      "type": "bitmap",
+      "source_bbox": {"x": 218, "y": 700, "width": 850, "height": 735},
+      "scaled_bbox": {"x": 127, "y": 407, "width": 494, "height": 427},
+      "z_index": 12,
+      "asset": "assets/illustrations/illustration-red-envelope-cat-horse-01.png",
+      "transparent_required": true,
+      "notes": "根据当前截图严格提取并补全；1.6秒底部锚点摇摆"
+    },
+    {
+      "id": "card-copy",
+      "type": "text",
+      "source_bbox": {"x": 360, "y": 1540, "width": 610, "height": 180},
+      "scaled_bbox": {"x": 209, "y": 895, "width": 355, "height": 105},
+      "z_index": 18
+    },
+    {
+      "id": "next-button",
+      "type": "text-vector",
+      "source_bbox": {"x": 60, "y": 2530, "width": 1170, "height": 125},
+      "scaled_bbox": {"x": 35, "y": 1471, "width": 680, "height": 73},
+      "z_index": 30,
+      "text": "下一步"
+    }
+  ]
+}

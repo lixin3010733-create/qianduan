@@ -1,0 +1,9 @@
+{
+  "name": "red-envelope-motion-h5-delivery",
+  "private": true,
+  "version": "1.0.0",
+  "description": "红包封面动效 H5 的 React、CSS、素材与设计参数交付包",
+  "peerDependencies": {
+    "react": ">=18"
+  }
+}
